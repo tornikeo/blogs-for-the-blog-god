@@ -1,6 +1,5 @@
-cp -r $GITHUB_WORKSPACE/main/* .
-mkdir -p embed
-cp -r $GITHUB_WORKSPACE/embed/* embed/
+mv main/* .
+git checkout -b gh-pages
 git config --global user.name 'GoodBot'
 git config --global user.email 'GoodBot@bots.noreply.github.com'
 git add .
