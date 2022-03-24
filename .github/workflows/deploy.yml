@@ -24,7 +24,7 @@ jobs:
           ls ${{ github.workspace }}
       - name: Copy files
         run:  | 
-          chmod +x ./scripts/deploy.sh 
-          ./scripts/deploy.sh
+          chmod +x ./main/scripts/deploy.sh 
+          ./main/scripts/deploy.sh
       - run: echo "🍏 This job's status is ${{ job.status }}."
 
