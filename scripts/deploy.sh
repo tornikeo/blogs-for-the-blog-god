@@ -1,5 +1,7 @@
 mv main/* .
-mv frame-embed/* embed/
+cp -r frame-embed/* embed/
+rm -rf frame-embed/
+rm -rf main/
 git config --global user.name 'GoodBot'
 git config --global user.email 'GoodBot@bots.noreply.github.com'
 git add .
