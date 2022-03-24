@@ -4,10 +4,6 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-	<title>
-		Blog for the Blog God!
-	</title>
-
 	<link rel="icon" type="image/x-icon" href="./dist/favicon.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 	<link rel="stylesheet" href="./dist/style.css">
@@ -16,46 +12,19 @@
 	<meta name="description" content="Use AI to write your scientifict blogs">
 </head>
 <body class="app" data-editable="true">
-	<header>
-	<div class="header">
-		<div class="header-inner" data-page-editable="true">
-			<div class="title">
-				Blog for the Blog God!
-			</div>
-				<div class="toolbar">
-					<div class="toolbar-el">
-						<a href="#" class="js-shuffle"><img src="./dist/iconmonstr-media-control-55.svg"> Shuffle initial text</a>
-					</div>
-					<div class="toolbar-el">
-						<a href="#" class="js-trigger" style="position: relative; top: auto; border: none; background-color: white; border-radius: 0px; padding: 0px; z-index: 1; left: auto; transform: translateX(-50%);"><img src="./dist/iconmonstr-download-14.svg"> Trigger autocomplete</a>
-						&nbsp; or <kbd>tab</kbd>
-					</div>
-					<div class="toolbar-el">
-						Select suggestion <kbd>↑</kbd> <kbd>↓</kbd> and <kbd>enter</kbd>
-					</div>
-					<div class="toolbar-el">
-						Cancel suggestion <kbd>esc</kbd>
-					</div>
-				</div>
-		</div>
-		<div class="rightbar">
-					<a href="#" class="js-save">Save &amp; Publish <img src="./dist/icon-publish.svg"></a>
-		</div>
-	</div>
-	<div class="ruler"></div>
-</header>
 
-<div class="page-wrapper">
-	<div class="page-container">
-		
-		
-		<div class="page-inner">
-			<div class="ql-toolbar"><span class="ql-formats"></span></div><div class="editor ql-container">
-				<div class="ql-editor" data-gramm="false" contenteditable="true"><p>This paper  </p></div>
-		</div><img class="js-loader hide" src="./dist/tail-spin.svg" style="top: 126.362px; left: 53.1px; ">
+
+	<div class="page-wrapper">
+		<div class="page-container">
+			
+			
+			<div class="page-inner">
+				<div class="ql-toolbar"><span class="ql-formats"></span></div><div class="editor ql-container">
+					<div class="ql-editor" data-gramm="false" contenteditable="true"><p>This paper  </p></div>
+			</div><img class="js-loader hide" src="./dist/tail-spin.svg" style="top: 126.362px; left: 53.1px; ">
+			</div>
 		</div>
 	</div>
-</div>
 
 	<div class="decoder-settings hide">
 		<div class="title">
@@ -69,7 +38,6 @@
 				<div class="desc">
 					<span>Model size</span><span class="js-val red">gpt2/arxiv-nlp</span>
 				</div>
-			
 				<input class="slider" type="range" step="1" min="0" max="4" value="4" data-value-0="distilgpt2/small" data-value-1="gpt2/small" data-value-2="gpt2/medium" data-value-3="gpt2/large" data-value-4="gpt2/arxiv-nlp">
 		</div>
 			<div class="setting top_p">
@@ -93,27 +61,27 @@
 			</div>
 	</div>
 
-<div class="modal hide share-screenshot">
-	<div class="modal-inner">
-		<div class="modal-content">
-			<p>From desktop:</p>
-			<ol>
-				<li>Right-click on your completion below and select "<strong>Copy Image</strong>".</li>
-				<li>To share on Twitter, start a tweet and paste the image.</li>
-			</ol>
-			<p>From mobile:</p>
-			<ol>
-				<li>Press and hold (long press) your completion below and either "<strong>Share</strong>" directly or "<strong>Copy Image</strong>".</li>
-				<li>If you copied the image, you can long press in Twitter to paste it into a new tweet.</li>
-			</ol>
-		</div>
-		<img class="js-loader big" src="./dist/oval.svg">
-		<img class="js-result">
-		<div class="buttons">
-			<a href="#" class="js-close">Done</a>
+	<div class="modal hide share-screenshot">
+		<div class="modal-inner">
+			<div class="modal-content">
+				<p>From desktop:</p>
+				<ol>
+					<li>Right-click on your completion below and select "<strong>Copy Image</strong>".</li>
+					<li>To share on Twitter, start a tweet and paste the image.</li>
+				</ol>
+				<p>From mobile:</p>
+				<ol>
+					<li>Press and hold (long press) your completion below and either "<strong>Share</strong>" directly or "<strong>Copy Image</strong>".</li>
+					<li>If you copied the image, you can long press in Twitter to paste it into a new tweet.</li>
+				</ol>
+			</div>
+			<img class="js-loader big" src="./dist/oval.svg">
+			<img class="js-result">
+			<div class="buttons">
+				<a href="#" class="js-close">Done</a>
+			</div>
 		</div>
 	</div>
-</div>
 
 	<div class="modal hide save-publish">
 		<div class="modal-inner">
@@ -137,15 +105,6 @@
 	<script src="./dist/github-buttons.js"></script>
 	<script src="./dist/quill.js"></script>
 	<script src="./dist/core.min.js"></script>
-	<script>
-	(function() {
-		if (window.location.hostname === 'localhost') {
-			console.log('[livereload]', 'on');
-			const s = document.createElement('script');
-			s.setAttribute('src', '//localhost:35729/livereload.js');
-			document.body.appendChild(s);
-		}
-	})();
-	</script>
+
 
 </body></html>
