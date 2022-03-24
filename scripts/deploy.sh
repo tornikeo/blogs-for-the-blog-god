@@ -1,4 +1,6 @@
 mv main/* .
+mkdir -p embed 
+mv embed/* embed/
 git config --global user.name 'GoodBot'
 git config --global user.email 'GoodBot@bots.noreply.github.com'
 git add .
