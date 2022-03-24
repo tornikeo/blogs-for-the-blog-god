@@ -9,4 +9,4 @@ git config --global user.email 'GoodBot@bots.noreply.github.com'
 git init
 git add .
 git commit -am "Auto update gh-pages"
-git push -force --allow-unrelated-histories origin HEAD:gh-pages
+git push --force --allow-unrelated-histories origin HEAD:gh-pages
