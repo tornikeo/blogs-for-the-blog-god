@@ -1,6 +1,6 @@
-cp $GITHUB_WORKSPACE/main/* .
+cp -r $GITHUB_WORKSPACE/main/* .
 mkdir -p embed
-cp $GITHUB_WORKSPACE/embed/* embed/
+cp -r $GITHUB_WORKSPACE/embed/* embed/
 git config --global user.name 'GoodBot'
 git config --global user.email 'GoodBot@bots.noreply.github.com'
 git add .
