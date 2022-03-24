@@ -1,5 +1,6 @@
 ls
 mv main/* .
+mkdir -p embed/
 cp -r frame-embed/* embed/
 rm -rf frame-embed/
 rm -rf main/
