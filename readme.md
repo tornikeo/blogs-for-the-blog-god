@@ -1,0 +1,2 @@
+# Write scientific blogs with GPT2
+A website to generate scientific articles, with GPT2! See a live preview at [https://tornikeo.github.io/blogs-for-the-blog-god/](https://tornikeo.github.io/blogs-for-the-blog-god/)
