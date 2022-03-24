@@ -1,3 +1,4 @@
+ls
 mv main/* .
 cp -r frame-embed/* embed/
 rm -rf frame-embed/
