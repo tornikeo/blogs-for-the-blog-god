@@ -493,8 +493,8 @@ body.app header div.ruler {
  * page container
  */
 .page-wrapper {
-  /* padding-top: 50px;
-  padding-bottom: 80px; */
+  padding-top: 50px;
+  padding-bottom: 80px;
 }
 @media (max-width: 1100px) {
   .page-wrapper {
@@ -502,21 +502,21 @@ body.app header div.ruler {
   }
 }
 .page-wrapper .page-container {
-  /*box-shadow: 0 1px 3px 1px rgba(60, 60, 60, 0.13);
-  box-sizing: border-box;
-   margin-left: auto;
-  margin-right: auto;
-  max-width: 740px;
-  background-color: white; 
-  padding: 56px 50px;
-  min-height: 700px;*/
+  /* box-shadow: 0 1px 3px 1px rgba(60, 60, 60, 0.13); */
+  /* box-sizing: border-box; */
+   /* margin-left: auto;
+  margin-right: auto; */
+  /* max-width: 740px; */
+  /* background-color: white;  */
+  /* padding: 56px 50px; */
+  /* min-height: 700px; */
 }
 .page-wrapper .page-container .page-inner {
-  /* padding: 20px 30px; */
+  padding: 20px 30px;
 }
 .page-wrapper .page-container .page-inner .watermark {
-  /* visibility: hidden;
-  text-align: right;
+  visibility: hidden;
+  /* text-align: right;
   margin-top: 20px; */
 }
 .page-wrapper .page-container .page-inner .watermark span.sep {
